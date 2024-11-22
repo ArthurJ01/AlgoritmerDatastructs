@@ -1,2 +1,5 @@
-﻿  Sorting.cpp
-  Sorting.vcxproj -> C:\Users\arthu\source\repos\Sorting\Debug\Sorting.exe
+﻿  InsertionSort.cpp
+D:\Code\Github\AlgoritmerDatastructs\Sorting\Sorting\InsertionSort.cpp(7,20): warning C4018: '<': signed/unsigned mismatch
+  Source.cpp
+  Generating Code...
+  Sorting.vcxproj -> D:\Code\Github\AlgoritmerDatastructs\Sorting\Debug\Sorting.exe
