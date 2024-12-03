@@ -1,9 +1,6 @@
-﻿  friendBFS.cpp
-  Graph.cpp
-  InsertionSort.cpp
-D:\Code\Github\AlgoritmerDatastructs\Sorting\Sorting\InsertionSort.cpp(7,20): warning C4018: '<': signed/unsigned mismatch
-  Sorting.cpp
+﻿  HuffmanCode.cpp
   Source.cpp
-D:\Code\Github\AlgoritmerDatastructs\Sorting\Sorting\Source.cpp(52,23): warning C4018: '<': signed/unsigned mismatch
+D:\Code\Github\AlgoritmerDatastructs\Sorting\Sorting\Source.cpp(63,23): warning C4018: '<': signed/unsigned mismatch
+  Tree.cpp
   Generating Code...
   Sorting.vcxproj -> D:\Code\Github\AlgoritmerDatastructs\Sorting\Debug\Sorting.exe

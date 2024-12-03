@@ -4,6 +4,7 @@
 #include <chrono>
 #include "InsertionSort.h"
 #include "friendBFS.h"
+#include "HuffmanCode.h"
 
 
 
@@ -64,8 +65,12 @@ void graphTest() {
     }
 }
 
+void huffmanTest() {
+    HuffmanCode huff;
+    huff.sort("hej");
+}
 
 int main() {
     
-    graphTest();
+    huffmanTest();
 }

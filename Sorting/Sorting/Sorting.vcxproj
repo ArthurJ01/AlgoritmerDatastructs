@@ -141,14 +141,18 @@
   <ItemGroup>
     <ClCompile Include="friendBFS.cpp" />
     <ClCompile Include="Graph.cpp" />
+    <ClCompile Include="HuffmanCode.cpp" />
     <ClCompile Include="InsertionSort.cpp" />
-    <ClCompile Include="Sorting.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Tree.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="friendBFS.h" />
     <ClInclude Include="Graph.h" />
+    <ClInclude Include="HuffmanCode.h" />
     <ClInclude Include="InsertionSort.h" />
+    <ClInclude Include="Tree.h" />
+    <ClInclude Include="TreeWrapper.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
