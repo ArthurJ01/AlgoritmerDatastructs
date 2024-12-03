@@ -1,30 +1,40 @@
 #include <iostream>
 #include <vector>
+#include <random>
+#include <chrono>
 #include "InsertionSort.h"
 #include "friendBFS.h"
 
-/*
-	    std::vector<int> list = { 5, 2, 9, 1, 5, 6 };
+
+
+void insertionTest() {
+    const int size = 50000;
+    std::vector<int> list(size);
+
+    // Initialize random number generator
+    std::random_device rd;                          
+    std::mt19937 gen(rd());                         
+    std::uniform_int_distribution<> distrib(0, size); 
+
+    // Fill the vector with random numbers
+    for (int& num : list) {
+        num = distrib(gen);
+    }
+
     InsertionSort sorter;
 
-    std::cout << "Original list: ";
-    for (int num : list) {
-        std::cout << num << " ";
-    }
-    std::cout << std::endl;
+    auto start = std::chrono::high_resolution_clock::now();
 
     sorter.sort(list);
 
-    std::cout << "Sorted list: ";
-    for (int num : list) {
-        std::cout << num << " ";
-    }
-    std::cout << std::endl;
+    // Stop timing
+    auto end = std::chrono::high_resolution_clock::now();
+    auto duration = std::chrono::duration_cast<std::chrono::microseconds>(end - start);
 
-    return 0;
-*/
+    std::cout << "Time taken to sort: " << duration.count() << " microseconds." << std::endl;
+}
 
-int main() {
+void graphTest() {
     Graph g(8);
     vector<int> frens;
 
@@ -52,4 +62,10 @@ int main() {
     for (int i = 0; i < frens.size(); i++) {
         cout << frens[i] << " ";
     }
+}
+
+
+int main() {
+    
+    graphTest();
 }
