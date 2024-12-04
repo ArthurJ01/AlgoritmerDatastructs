@@ -3,7 +3,7 @@
 #include <iostream>
 #include <queue>
 
-void HuffmanCode::sort(std::string str)
+TreeWrapper HuffmanCode::sort(std::string str)
 {
 
     std::vector<char> charArray(str.begin(), str.end());
@@ -33,5 +33,9 @@ void HuffmanCode::sort(std::string str)
 
         q.push(TreeWrapper(new Tree(w, t1.tree, t2.tree)));
     }
+
+    TreeWrapper t = TreeWrapper(q.top());
+
+    return t;
 
 }

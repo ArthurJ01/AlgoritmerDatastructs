@@ -67,7 +67,16 @@ void graphTest() {
 
 void huffmanTest() {
     HuffmanCode huff;
-    huff.sort("hej");
+    TreeWrapper t = huff.sort("heeejssansvessjsonaaer");
+
+    vector<char> bitString;
+    t.tree->printTree(bitString);
+
+    for (char bit : bitString) {
+        cout << bit;  
+    }
+    cout << endl;
+    
 }
 
 int main() {

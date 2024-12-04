@@ -1,6 +1,3 @@
-﻿  HuffmanCode.cpp
-  Source.cpp
+﻿  Source.cpp
 D:\Code\Github\AlgoritmerDatastructs\Sorting\Sorting\Source.cpp(63,23): warning C4018: '<': signed/unsigned mismatch
-  Tree.cpp
-  Generating Code...
   Sorting.vcxproj -> D:\Code\Github\AlgoritmerDatastructs\Sorting\Debug\Sorting.exe

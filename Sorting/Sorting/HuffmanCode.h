@@ -6,7 +6,7 @@
 
 class HuffmanCode {
 public:
-	void sort(string str);
+	TreeWrapper sort(string str);
 };
 
 #endif
